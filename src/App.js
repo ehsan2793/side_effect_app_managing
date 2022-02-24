@@ -13,6 +13,7 @@ function App() {
     if (storedUserLoggedInInformations === '1') {
       setIsLoggedIn(true);
     }
+    // eslint-disable-next-line
   }, []);
 
   const loginHandler = (email, password) => {
